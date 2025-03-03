@@ -10,6 +10,8 @@ const monthPast = String(date.getMonth() + 1).padStart(2, '0');
 const yearPast = date.getFullYear();
 let pastDate = `${yearPast}-${monthPast}-${dayPast}`;
 
+const key = "3f824129ca044bb1b0682af2a1771af9";
+
 async function Load(url) {
 
     try {
@@ -73,12 +75,12 @@ async function Load(url) {
     }
 }
 
-Load(`https://newsapi.org/v2/everything?q=india&from=${pastDate}&to=${currDate}&apikey=6cd731f935174f37bf58e6457486ce33`);
+Load(`https://newsapi.org/v2/everything?q=india&from=${pastDate}&to=${currDate}&apikey=${key}`);
 
 const logo = document.getElementById("logo_img");
 
 logo.addEventListener('click',()=>{
-    Load(`https://newsapi.org/v2/everything?q=india&from=${pastDate}&to=${currDate}&apikey=6cd731f935174f37bf58e6457486ce33`);
+    Load(`https://newsapi.org/v2/everything?q=india&from=${pastDate}&to=${currDate}&apikey=${key}`);
 })
 
 
@@ -92,7 +94,7 @@ function linkSearch(links){
 
         const categoryName = category.textContent;
 
-        const categoryUrl = `https://newsapi.org/v2/everything?q=${categoryName}&from=${pastDate}&to=${currDate}&apikey=6cd731f935174f37bf58e6457486ce33`;
+        const categoryUrl = `https://newsapi.org/v2/everything?q=${categoryName}&from=${pastDate}&to=${currDate}&apikey=${key}`;
 
         Load(categoryUrl);
     })
@@ -130,7 +132,7 @@ searchbtn.addEventListener('click',()=>{
     
     if(queryField.value)
     {
-        const url = `https://newsapi.org/v2/everything?q=${queryField.value}&from=${pastDate}&to=${currDate}&apikey=6cd731f935174f37bf58e6457486ce33`;
+        const url = `https://newsapi.org/v2/everything?q=${queryField.value}&from=${pastDate}&to=${currDate}&apikey=${key}`;
 
         Load(url);
 

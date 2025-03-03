@@ -19,7 +19,8 @@ async function Load(url) {
             method: "GET",
             headers: {
                 'User-Agent': 'Mozilla/5.0',
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+                "Connection": "keep-alive"
             }
         });
 

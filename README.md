@@ -17,14 +17,23 @@ Morning-News-Website is a web application that provides users with the latest ne
 - [News API](https://newsapi.org/)
 
 ## Screenshots
+### Initial Page When Accessing Site
 ![Project Image 1](https://github.com/user-attachments/assets/2c8c4621-0443-476f-abd6-5c4c9857c335)
 
+---
+### Using Search Functionality To Find News
 ![Project Image 2](https://github.com/user-attachments/assets/b3eb1efa-7de6-43c6-91b6-c813707d6616)
 
+---
+### Using The Navigation Bar To Find News
 ![Project Image 3](https://github.com/user-attachments/assets/bfe4cbcf-074e-4bf6-96eb-985f4ac0e007)
 
+---
+### Accessing The Site In Mobile View
 ![Project Image 4](https://github.com/user-attachments/assets/4df4d3b1-c83a-428c-90e3-1205d446367b)
 
+---
+### Searching News With Navigation Bar
 ![Project Image 5](https://github.com/user-attachments/assets/ccebac66-1790-47ac-be9e-3953bba8c0d0)
 
 

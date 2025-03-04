@@ -10,12 +10,11 @@ const monthPast = String(date.getMonth() + 1).padStart(2, '0');
 const yearPast = date.getFullYear();
 let pastDate = `${yearPast}-${monthPast}-${dayPast}`;
 
-const proxyServer = "https://morning-news-backend.onrender.com/news"
-
 async function Load(query) {
 
     try {
-        const url = `${proxyServer}?query=${query}&start=${pastDate}&end=${currDate}`;
+        const key = "3f824129ca044bb1b0682af2a1771af9";
+        const url = `https://newsapi.org/v2/everything?q=${query}&from=${pastDate}&to=${currDate}&apikey=${key}`;
 
         const response = await fetch(url, {
             method: "GET",

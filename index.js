@@ -10,12 +10,14 @@ const monthPast = String(date.getMonth() + 1).padStart(2, '0');
 const yearPast = date.getFullYear();
 let pastDate = `${yearPast}-${monthPast}-${dayPast}`;
 
-const key = "3f824129ca044bb1b0682af2a1771af9";
+const proxyServer = "http://localhost:5000/news"
 
-async function Load(url) {
+async function Load(query) {
 
     try {
-        let response = await fetch(url, {
+        const url = `${proxyServer}?query=${query}&start=${pastDate}&end=${currDate}`;
+
+        const response = await fetch(url, {
             method: "GET",
             headers: {
                 'User-Agent': 'Mozilla/5.0',
@@ -76,14 +78,11 @@ async function Load(url) {
     }
 }
 
-Load(`https://newsapi.org/v2/everything?q=india&from=${pastDate}&to=${currDate}&apikey=${key}`);
+Load('india');
 
 const logo = document.getElementById("logo_img");
 
-logo.addEventListener('click',()=>{
-    Load(`https://newsapi.org/v2/everything?q=india&from=${pastDate}&to=${currDate}&apikey=${key}`);
-})
-
+logo.addEventListener('click',()=>{Load('india');})
 
 function linkSearch(links){
 
@@ -95,9 +94,7 @@ function linkSearch(links){
 
         const categoryName = category.textContent;
 
-        const categoryUrl = `https://newsapi.org/v2/everything?q=${categoryName}&from=${pastDate}&to=${currDate}&apikey=${key}`;
-
-        Load(categoryUrl);
+        Load(categoryName);
     })
 
     category.addEventListener('click',(event)=>{
@@ -133,9 +130,7 @@ searchbtn.addEventListener('click',()=>{
     
     if(queryField.value)
     {
-        const url = `https://newsapi.org/v2/everything?q=${queryField.value}&from=${pastDate}&to=${currDate}&apikey=${key}`;
-
-        Load(url);
+        Load(queryField.value);
 
         const links = document.getElementById("links");
         const categories = links.getElementsByTagName("a");

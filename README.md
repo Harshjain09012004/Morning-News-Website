@@ -2,6 +2,21 @@
 ![Project Image 1](https://github.com/user-attachments/assets/2c8c4621-0443-476f-abd6-5c4c9857c335)
 
 ---
+### Using Search Functionality To Find News
+![Project Image 2](https://github.com/user-attachments/assets/b3eb1efa-7de6-43c6-91b6-c813707d6616)
+
+---
+### Using The Navigation Bar To Find News
+![Project Image 3](https://github.com/user-attachments/assets/bfe4cbcf-074e-4bf6-96eb-985f4ac0e007)
+
+---
+### Accessing The Site In Mobile View
+![Project Image 4](https://github.com/user-attachments/assets/4df4d3b1-c83a-428c-90e3-1205d446367b)
+
+---
+### Searching News With Navigation Bar
+![Project Image 5](https://github.com/user-attachments/assets/ccebac66-1790-47ac-be9e-3953bba8c0d0)
+
 ## Overview
 
 Morning-News-Website is a web application that provides users with the latest news from various sources like BBC, CNN, and more. The website is built using HTML, CSS, and JavaScript, and it leverages the News API to fetch and display news articles.
@@ -21,24 +36,6 @@ Morning-News-Website is a web application that provides users with the latest ne
 
 ## Project Video Link
 - [Drive Link](https://drive.google.com/file/d/1MrL5U1u3JH3NG6T2lkfF_EP0IV8y8Z7h/view?usp=sharing)
-
-## Screenshots
-
-### Using Search Functionality To Find News
-![Project Image 2](https://github.com/user-attachments/assets/b3eb1efa-7de6-43c6-91b6-c813707d6616)
-
----
-### Using The Navigation Bar To Find News
-![Project Image 3](https://github.com/user-attachments/assets/bfe4cbcf-074e-4bf6-96eb-985f4ac0e007)
-
----
-### Accessing The Site In Mobile View
-![Project Image 4](https://github.com/user-attachments/assets/4df4d3b1-c83a-428c-90e3-1205d446367b)
-
----
-### Searching News With Navigation Bar
-![Project Image 5](https://github.com/user-attachments/assets/ccebac66-1790-47ac-be9e-3953bba8c0d0)
-
 
 ## Getting Started
 

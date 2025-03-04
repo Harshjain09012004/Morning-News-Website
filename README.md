@@ -1,4 +1,5 @@
 # Morning News Website
+![Project Image 1](https://github.com/user-attachments/assets/2c8c4621-0443-476f-abd6-5c4c9857c335)
 
 ---
 ## Overview
@@ -22,10 +23,7 @@ Morning-News-Website is a web application that provides users with the latest ne
 - [Drive Link](https://drive.google.com/file/d/1MrL5U1u3JH3NG6T2lkfF_EP0IV8y8Z7h/view?usp=sharing)
 
 ## Screenshots
-### Initial Page When Accessing Site
-![Project Image 1](https://github.com/user-attachments/assets/2c8c4621-0443-476f-abd6-5c4c9857c335)
 
----
 ### Using Search Functionality To Find News
 ![Project Image 2](https://github.com/user-attachments/assets/b3eb1efa-7de6-43c6-91b6-c813707d6616)
 

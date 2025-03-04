@@ -1,4 +1,4 @@
-# Morning-News-Website
+![Screenshot 2025-03-04 164905](https://github.com/user-attachments/assets/b698d1b4-4685-4bfe-b035-f4ff59800b80)# Morning-News-Website
 ## Overview
 
 Morning-News-Website is a web application that provides users with the latest news from various sources like BBC, CNN, and more. The website is built using HTML, CSS, and JavaScript, and it leverages the News API to fetch and display news articles.
@@ -17,13 +17,16 @@ Morning-News-Website is a web application that provides users with the latest ne
 - [News API](https://newsapi.org/)
 
 ## Screenshots
+![Project Image 1](https://github.com/user-attachments/assets/2c8c4621-0443-476f-abd6-5c4c9857c335)
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
+![Project Image 2](https://github.com/user-attachments/assets/b3eb1efa-7de6-43c6-91b6-c813707d6616)
+
+![Project Image 3](https://github.com/user-attachments/assets/bfe4cbcf-074e-4bf6-96eb-985f4ac0e007)
+
+![Project Image 4](https://github.com/user-attachments/assets/4df4d3b1-c83a-428c-90e3-1205d446367b)
+
+![Project Image 5](https://github.com/user-attachments/assets/ccebac66-1790-47ac-be9e-3953bba8c0d0)
+
 
 ## Getting Started
 

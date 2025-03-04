@@ -10,7 +10,7 @@ const monthPast = String(date.getMonth() + 1).padStart(2, '0');
 const yearPast = date.getFullYear();
 let pastDate = `${yearPast}-${monthPast}-${dayPast}`;
 
-const proxyServer = "http://localhost:5000/news"
+const proxyServer = "https://morning-news-backend.onrender.com/news"
 
 async function Load(query) {
 

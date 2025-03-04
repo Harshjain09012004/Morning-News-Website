@@ -25,7 +25,9 @@ async function Load(query) {
                 "Connection": "keep-alive"
             }
         });
-
+        
+        console.log(response);
+        
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -74,7 +76,7 @@ async function Load(query) {
             }
         });
     } catch (error) {
-        console.error("Error fetching data:", error.message);
+        console.error("Error fetching data:", error);
     }
 }
 
